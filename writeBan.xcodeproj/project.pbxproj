@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7213B7B51BB257D100CC75A2 /* WriteBanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7213B7B41BB257D100CC75A2 /* WriteBanView.m */; };
+		7213B7B81BB2A95400CC75A2 /* writeBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7213B7B71BB2A95400CC75A2 /* writeBezierPath.m */; };
+		7213B7D41BB2D6B300CC75A2 /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7213B7BA1BB2D6B300CC75A2 /* UMSocialLocalizable.strings */; settings = {ASSET_TAGS = (); }; };
+		7213B7D61BB2D6B300CC75A2 /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7213B7CA1BB2D6B300CC75A2 /* UMSCommentDetailController.xib */; settings = {ASSET_TAGS = (); }; };
+		7213B7D71BB2D6B300CC75A2 /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7213B7CB1BB2D6B300CC75A2 /* UMSCommentInputController.xib */; settings = {ASSET_TAGS = (); }; };
+		7213B7D81BB2D6B300CC75A2 /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7213B7CC1BB2D6B300CC75A2 /* UMSCommentInputControlleriPad.xib */; settings = {ASSET_TAGS = (); }; };
+		7213B7D91BB2D6B300CC75A2 /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7213B7CD1BB2D6B300CC75A2 /* UMShareEditViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7213B7DA1BB2D6B300CC75A2 /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7213B7CE1BB2D6B300CC75A2 /* UMShareEditViewControlleriPad.xib */; settings = {ASSET_TAGS = (); }; };
+		7213B7DB1BB2D6B300CC75A2 /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7213B7CF1BB2D6B300CC75A2 /* UMSLoginViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7213B7DC1BB2D6B300CC75A2 /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7213B7D01BB2D6B300CC75A2 /* UMSnsAccountViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7213B7DD1BB2D6B300CC75A2 /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7213B7D11BB2D6B300CC75A2 /* UMSShareListController.xib */; settings = {ASSET_TAGS = (); }; };
+		7213B7DE1BB2D6B300CC75A2 /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7213B7D21BB2D6B300CC75A2 /* UMSocialSDKResourcesNew.bundle */; settings = {ASSET_TAGS = (); }; };
+		7213B7E01BB3011700CC75A2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7213B7DF1BB3011700CC75A2 /* SystemConfiguration.framework */; };
+		727F9EB11BB3179B00A375C8 /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 727F9EB01BB3179B00A375C8 /* libSocialSina.a */; settings = {ASSET_TAGS = (); }; };
+		727F9EB31BB317B600A375C8 /* libUMSocial_Sdk_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 727F9EB21BB317B600A375C8 /* libUMSocial_Sdk_4.2.3.a */; settings = {ASSET_TAGS = (); }; };
+		727F9EB51BB317DE00A375C8 /* libUMSocial_Sdk_Comment_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 727F9EB41BB317DE00A375C8 /* libUMSocial_Sdk_Comment_4.2.3.a */; settings = {ASSET_TAGS = (); }; };
+		72F661BF1BB0293B0076E5CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F661BE1BB0293B0076E5CB /* main.m */; };
+		72F661C21BB0293B0076E5CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F661C11BB0293B0076E5CB /* AppDelegate.m */; };
+		72F661C51BB0293B0076E5CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F661C41BB0293B0076E5CB /* ViewController.m */; };
+		72F661C81BB0293B0076E5CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F661C61BB0293B0076E5CB /* Main.storyboard */; };
+		72F661CD1BB0293B0076E5CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F661CB1BB0293B0076E5CB /* LaunchScreen.storyboard */; };
+		72F661D81BB0293B0076E5CB /* writeBanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F661D71BB0293B0076E5CB /* writeBanTests.m */; };
+		72F661E31BB0293B0076E5CB /* writeBanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F661E21BB0293B0076E5CB /* writeBanUITests.m */; };
+		72F661F21BB0F5FD0076E5CB /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F661F11BB0F5FD0076E5CB /* UIImage+Tint.m */; };
+		72F662281BB1533A0076E5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F662271BB1533A0076E5CB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72F661D41BB0293B0076E5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72F661B21BB0293A0076E5CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F661B91BB0293B0076E5CB;
+			remoteInfo = writeBan;
+		};
+		72F661DF1BB0293B0076E5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72F661B21BB0293A0076E5CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F661B91BB0293B0076E5CB;
+			remoteInfo = writeBan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7213B7B31BB257D100CC75A2 /* WriteBanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteBanView.h; sourceTree = "<group>"; };
+		7213B7B41BB257D100CC75A2 /* WriteBanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteBanView.m; sourceTree = "<group>"; };
+		7213B7B61BB2A95400CC75A2 /* writeBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writeBezierPath.h; sourceTree = "<group>"; };
+		7213B7B71BB2A95400CC75A2 /* writeBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = writeBezierPath.m; sourceTree = "<group>"; };
+		7213B7BB1BB2D6B300CC75A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
+		7213B7BD1BB2D6B300CC75A2 /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
+		7213B7BE1BB2D6B300CC75A2 /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
+		7213B7BF1BB2D6B300CC75A2 /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
+		7213B7C01BB2D6B300CC75A2 /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
+		7213B7C11BB2D6B300CC75A2 /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
+		7213B7C21BB2D6B300CC75A2 /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		7213B7C31BB2D6B300CC75A2 /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
+		7213B7C41BB2D6B300CC75A2 /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
+		7213B7C51BB2D6B300CC75A2 /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
+		7213B7C61BB2D6B300CC75A2 /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		7213B7C71BB2D6B300CC75A2 /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
+		7213B7CA1BB2D6B300CC75A2 /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		7213B7CB1BB2D6B300CC75A2 /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
+		7213B7CC1BB2D6B300CC75A2 /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		7213B7CD1BB2D6B300CC75A2 /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
+		7213B7CE1BB2D6B300CC75A2 /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		7213B7CF1BB2D6B300CC75A2 /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
+		7213B7D01BB2D6B300CC75A2 /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		7213B7D11BB2D6B300CC75A2 /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
+		7213B7D21BB2D6B300CC75A2 /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		7213B7D31BB2D6B300CC75A2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
+		7213B7DF1BB3011700CC75A2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7213B7E31BB3099700CC75A2 /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		727F9EB01BB3179B00A375C8 /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
+		727F9EB21BB317B600A375C8 /* libUMSocial_Sdk_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_4.2.3.a; sourceTree = "<group>"; };
+		727F9EB41BB317DE00A375C8 /* libUMSocial_Sdk_Comment_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_Comment_4.2.3.a; sourceTree = "<group>"; };
+		72F661BA1BB0293B0076E5CB /* writeBan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = writeBan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F661BE1BB0293B0076E5CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72F661C01BB0293B0076E5CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72F661C11BB0293B0076E5CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72F661C31BB0293B0076E5CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72F661C41BB0293B0076E5CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72F661C71BB0293B0076E5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72F661CC1BB0293B0076E5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72F661CE1BB0293B0076E5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F661D31BB0293B0076E5CB /* writeBanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = writeBanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F661D71BB0293B0076E5CB /* writeBanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = writeBanTests.m; sourceTree = "<group>"; };
+		72F661D91BB0293B0076E5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F661DE1BB0293B0076E5CB /* writeBanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = writeBanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F661E21BB0293B0076E5CB /* writeBanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = writeBanUITests.m; sourceTree = "<group>"; };
+		72F661E41BB0293B0076E5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F661F01BB0F5FD0076E5CB /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		72F661F11BB0F5FD0076E5CB /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		72F662271BB1533A0076E5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72F661B71BB0293B0076E5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727F9EB31BB317B600A375C8 /* libUMSocial_Sdk_4.2.3.a in Frameworks */,
+				727F9EB51BB317DE00A375C8 /* libUMSocial_Sdk_Comment_4.2.3.a in Frameworks */,
+				7213B7E01BB3011700CC75A2 /* SystemConfiguration.framework in Frameworks */,
+				727F9EB11BB3179B00A375C8 /* libSocialSina.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F661D01BB0293B0076E5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F661DB1BB0293B0076E5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7213B7B91BB2D6B300CC75A2 /* UMSocial_Sdk_4.2.3 */ = {
+			isa = PBXGroup;
+			children = (
+				727F9EB21BB317B600A375C8 /* libUMSocial_Sdk_4.2.3.a */,
+				727F9EB41BB317DE00A375C8 /* libUMSocial_Sdk_Comment_4.2.3.a */,
+				7213B7BA1BB2D6B300CC75A2 /* UMSocialLocalizable.strings */,
+				7213B7BC1BB2D6B300CC75A2 /* Header */,
+				7213B7C91BB2D6B300CC75A2 /* SocialSDKXib */,
+				7213B7D21BB2D6B300CC75A2 /* UMSocialSDKResourcesNew.bundle */,
+			);
+			path = UMSocial_Sdk_4.2.3;
+			sourceTree = "<group>";
+		};
+		7213B7BC1BB2D6B300CC75A2 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				7213B7BD1BB2D6B300CC75A2 /* UMSocial.h */,
+				7213B7BE1BB2D6B300CC75A2 /* UMSocialAccountManager.h */,
+				7213B7BF1BB2D6B300CC75A2 /* UMSocialBar.h */,
+				7213B7C01BB2D6B300CC75A2 /* UMSocialConfig.h */,
+				7213B7C11BB2D6B300CC75A2 /* UMSocialControllerService.h */,
+				7213B7C21BB2D6B300CC75A2 /* UMSocialControllerServiceComment.h */,
+				7213B7C31BB2D6B300CC75A2 /* UMSocialData.h */,
+				7213B7C41BB2D6B300CC75A2 /* UMSocialDataService.h */,
+				7213B7C51BB2D6B300CC75A2 /* UMSocialSnsData.h */,
+				7213B7C61BB2D6B300CC75A2 /* UMSocialSnsPlatformManager.h */,
+				7213B7C71BB2D6B300CC75A2 /* UMSocialSnsService.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		7213B7C91BB2D6B300CC75A2 /* SocialSDKXib */ = {
+			isa = PBXGroup;
+			children = (
+				7213B7CA1BB2D6B300CC75A2 /* UMSCommentDetailController.xib */,
+				7213B7CB1BB2D6B300CC75A2 /* UMSCommentInputController.xib */,
+				7213B7CC1BB2D6B300CC75A2 /* UMSCommentInputControlleriPad.xib */,
+				7213B7CD1BB2D6B300CC75A2 /* UMShareEditViewController.xib */,
+				7213B7CE1BB2D6B300CC75A2 /* UMShareEditViewControlleriPad.xib */,
+				7213B7CF1BB2D6B300CC75A2 /* UMSLoginViewController.xib */,
+				7213B7D01BB2D6B300CC75A2 /* UMSnsAccountViewController.xib */,
+				7213B7D11BB2D6B300CC75A2 /* UMSShareListController.xib */,
+			);
+			path = SocialSDKXib;
+			sourceTree = "<group>";
+		};
+		7213B7E11BB3099700CC75A2 /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				727F9EB01BB3179B00A375C8 /* libSocialSina.a */,
+				7213B7E31BB3099700CC75A2 /* UMSocialSinaHandler.h */,
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		72F661B11BB0293A0076E5CB = {
+			isa = PBXGroup;
+			children = (
+				7213B7DF1BB3011700CC75A2 /* SystemConfiguration.framework */,
+				72F661BC1BB0293B0076E5CB /* writeBan */,
+				72F661D61BB0293B0076E5CB /* writeBanTests */,
+				72F661E11BB0293B0076E5CB /* writeBanUITests */,
+				72F661BB1BB0293B0076E5CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72F661BB1BB0293B0076E5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72F661BA1BB0293B0076E5CB /* writeBan.app */,
+				72F661D31BB0293B0076E5CB /* writeBanTests.xctest */,
+				72F661DE1BB0293B0076E5CB /* writeBanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72F661BC1BB0293B0076E5CB /* writeBan */ = {
+			isa = PBXGroup;
+			children = (
+				72F661F71BB0F6800076E5CB /* Other */,
+				72F661F61BB0F6460076E5CB /* Tools */,
+				72F661F51BB0F6140076E5CB /* Controller */,
+				72F661F41BB0F60E0076E5CB /* View */,
+				72F661F31BB0F6020076E5CB /* Model */,
+				72F661BD1BB0293B0076E5CB /* Supporting Files */,
+			);
+			path = writeBan;
+			sourceTree = "<group>";
+		};
+		72F661BD1BB0293B0076E5CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72F661BE1BB0293B0076E5CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72F661D61BB0293B0076E5CB /* writeBanTests */ = {
+			isa = PBXGroup;
+			children = (
+				72F661D71BB0293B0076E5CB /* writeBanTests.m */,
+				72F661D91BB0293B0076E5CB /* Info.plist */,
+			);
+			path = writeBanTests;
+			sourceTree = "<group>";
+		};
+		72F661E11BB0293B0076E5CB /* writeBanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72F661E21BB0293B0076E5CB /* writeBanUITests.m */,
+				72F661E41BB0293B0076E5CB /* Info.plist */,
+			);
+			path = writeBanUITests;
+			sourceTree = "<group>";
+		};
+		72F661F31BB0F6020076E5CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		72F661F41BB0F60E0076E5CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72F661C61BB0293B0076E5CB /* Main.storyboard */,
+				7213B7B31BB257D100CC75A2 /* WriteBanView.h */,
+				7213B7B41BB257D100CC75A2 /* WriteBanView.m */,
+				7213B7B61BB2A95400CC75A2 /* writeBezierPath.h */,
+				7213B7B71BB2A95400CC75A2 /* writeBezierPath.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		72F661F51BB0F6140076E5CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				72F661C31BB0293B0076E5CB /* ViewController.h */,
+				72F661C41BB0293B0076E5CB /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		72F661F61BB0F6460076E5CB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				7213B7E11BB3099700CC75A2 /* Sina */,
+				7213B7B91BB2D6B300CC75A2 /* UMSocial_Sdk_4.2.3 */,
+				72F661F01BB0F5FD0076E5CB /* UIImage+Tint.h */,
+				72F661F11BB0F5FD0076E5CB /* UIImage+Tint.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		72F661F71BB0F6800076E5CB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				72F661CB1BB0293B0076E5CB /* LaunchScreen.storyboard */,
+				72F661CE1BB0293B0076E5CB /* Info.plist */,
+				72F661C01BB0293B0076E5CB /* AppDelegate.h */,
+				72F661C11BB0293B0076E5CB /* AppDelegate.m */,
+				72F662271BB1533A0076E5CB /* Assets.xcassets */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72F661B91BB0293B0076E5CB /* writeBan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F661E71BB0293B0076E5CB /* Build configuration list for PBXNativeTarget "writeBan" */;
+			buildPhases = (
+				72F661B61BB0293B0076E5CB /* Sources */,
+				72F661B71BB0293B0076E5CB /* Frameworks */,
+				72F661B81BB0293B0076E5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = writeBan;
+			productName = writeBan;
+			productReference = 72F661BA1BB0293B0076E5CB /* writeBan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72F661D21BB0293B0076E5CB /* writeBanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F661EA1BB0293B0076E5CB /* Build configuration list for PBXNativeTarget "writeBanTests" */;
+			buildPhases = (
+				72F661CF1BB0293B0076E5CB /* Sources */,
+				72F661D01BB0293B0076E5CB /* Frameworks */,
+				72F661D11BB0293B0076E5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72F661D51BB0293B0076E5CB /* PBXTargetDependency */,
+			);
+			name = writeBanTests;
+			productName = writeBanTests;
+			productReference = 72F661D31BB0293B0076E5CB /* writeBanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72F661DD1BB0293B0076E5CB /* writeBanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F661ED1BB0293B0076E5CB /* Build configuration list for PBXNativeTarget "writeBanUITests" */;
+			buildPhases = (
+				72F661DA1BB0293B0076E5CB /* Sources */,
+				72F661DB1BB0293B0076E5CB /* Frameworks */,
+				72F661DC1BB0293B0076E5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72F661E01BB0293B0076E5CB /* PBXTargetDependency */,
+			);
+			name = writeBanUITests;
+			productName = writeBanUITests;
+			productReference = 72F661DE1BB0293B0076E5CB /* writeBanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72F661B21BB0293A0076E5CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "耿文康";
+				TargetAttributes = {
+					72F661B91BB0293B0076E5CB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 87L7VVQZCT;
+					};
+					72F661D21BB0293B0076E5CB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 72F661B91BB0293B0076E5CB;
+					};
+					72F661DD1BB0293B0076E5CB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 72F661B91BB0293B0076E5CB;
+					};
+				};
+			};
+			buildConfigurationList = 72F661B51BB0293A0076E5CB /* Build configuration list for PBXProject "writeBan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 72F661B11BB0293A0076E5CB;
+			productRefGroup = 72F661BB1BB0293B0076E5CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72F661B91BB0293B0076E5CB /* writeBan */,
+				72F661D21BB0293B0076E5CB /* writeBanTests */,
+				72F661DD1BB0293B0076E5CB /* writeBanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72F661B81BB0293B0076E5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7213B7D91BB2D6B300CC75A2 /* UMShareEditViewController.xib in Resources */,
+				7213B7D71BB2D6B300CC75A2 /* UMSCommentInputController.xib in Resources */,
+				72F661CD1BB0293B0076E5CB /* LaunchScreen.storyboard in Resources */,
+				7213B7D61BB2D6B300CC75A2 /* UMSCommentDetailController.xib in Resources */,
+				7213B7DB1BB2D6B300CC75A2 /* UMSLoginViewController.xib in Resources */,
+				7213B7D81BB2D6B300CC75A2 /* UMSCommentInputControlleriPad.xib in Resources */,
+				7213B7DA1BB2D6B300CC75A2 /* UMShareEditViewControlleriPad.xib in Resources */,
+				72F662281BB1533A0076E5CB /* Assets.xcassets in Resources */,
+				7213B7D41BB2D6B300CC75A2 /* UMSocialLocalizable.strings in Resources */,
+				72F661C81BB0293B0076E5CB /* Main.storyboard in Resources */,
+				7213B7DC1BB2D6B300CC75A2 /* UMSnsAccountViewController.xib in Resources */,
+				7213B7DD1BB2D6B300CC75A2 /* UMSShareListController.xib in Resources */,
+				7213B7DE1BB2D6B300CC75A2 /* UMSocialSDKResourcesNew.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F661D11BB0293B0076E5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F661DC1BB0293B0076E5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72F661B61BB0293B0076E5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F661F21BB0F5FD0076E5CB /* UIImage+Tint.m in Sources */,
+				7213B7B81BB2A95400CC75A2 /* writeBezierPath.m in Sources */,
+				72F661C51BB0293B0076E5CB /* ViewController.m in Sources */,
+				72F661C21BB0293B0076E5CB /* AppDelegate.m in Sources */,
+				72F661BF1BB0293B0076E5CB /* main.m in Sources */,
+				7213B7B51BB257D100CC75A2 /* WriteBanView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F661CF1BB0293B0076E5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F661D81BB0293B0076E5CB /* writeBanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F661DA1BB0293B0076E5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F661E31BB0293B0076E5CB /* writeBanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72F661D51BB0293B0076E5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72F661B91BB0293B0076E5CB /* writeBan */;
+			targetProxy = 72F661D41BB0293B0076E5CB /* PBXContainerItemProxy */;
+		};
+		72F661E01BB0293B0076E5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72F661B91BB0293B0076E5CB /* writeBan */;
+			targetProxy = 72F661DF1BB0293B0076E5CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7213B7BA1BB2D6B300CC75A2 /* UMSocialLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7213B7BB1BB2D6B300CC75A2 /* en */,
+				7213B7D31BB2D6B300CC75A2 /* zh-Hans */,
+			);
+			name = UMSocialLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		72F661C61BB0293B0076E5CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F661C71BB0293B0076E5CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72F661CB1BB0293B0076E5CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F661CC1BB0293B0076E5CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72F661E51BB0293B0076E5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72F661E61BB0293B0076E5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72F661E81BB0293B0076E5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = writeBan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/writeBan/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)/writeBan/Sina",
+				);
+				"OTHER_LIBTOOLFLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = ggg.com.writeBan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		72F661E91BB0293B0076E5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = writeBan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/writeBan/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)/writeBan/Sina",
+				);
+				"OTHER_LIBTOOLFLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = ggg.com.writeBan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		72F661EB1BB0293B0076E5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = writeBanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ggg.com.writeBanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/writeBan.app/writeBan";
+			};
+			name = Debug;
+		};
+		72F661EC1BB0293B0076E5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = writeBanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ggg.com.writeBanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/writeBan.app/writeBan";
+			};
+			name = Release;
+		};
+		72F661EE1BB0293B0076E5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = writeBanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ggg.com.writeBanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = writeBan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		72F661EF1BB0293B0076E5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = writeBanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ggg.com.writeBanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = writeBan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72F661B51BB0293A0076E5CB /* Build configuration list for PBXProject "writeBan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F661E51BB0293B0076E5CB /* Debug */,
+				72F661E61BB0293B0076E5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F661E71BB0293B0076E5CB /* Build configuration list for PBXNativeTarget "writeBan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F661E81BB0293B0076E5CB /* Debug */,
+				72F661E91BB0293B0076E5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F661EA1BB0293B0076E5CB /* Build configuration list for PBXNativeTarget "writeBanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F661EB1BB0293B0076E5CB /* Debug */,
+				72F661EC1BB0293B0076E5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F661ED1BB0293B0076E5CB /* Build configuration list for PBXNativeTarget "writeBanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F661EE1BB0293B0076E5CB /* Debug */,
+				72F661EF1BB0293B0076E5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72F661B21BB0293A0076E5CB /* Project object */;
+}
